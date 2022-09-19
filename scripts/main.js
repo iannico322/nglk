@@ -1,6 +1,7 @@
 
     let text = document.querySelector('.ww')
     let btn = document.querySelector('.submit')
+    let ref = document.querySelector('.ref')
 
     let dice_btn = document.querySelector('.dice-button')
 
@@ -11,6 +12,9 @@
         
        
         
+    })
+    btn.addEventListener('click',()=>{
+        console.log("hehheea")
     })
 
    
